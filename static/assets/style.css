@@ -28,8 +28,13 @@ body {
 
 hr {
     height: 0;
-    color: inherit;
-    border-top-width: 1px
+    border-top-width: 2px;
+    border-color: #2dd4bf;
+    padding-bottom: 1rem;
+    border-radius: 1rem;
+}
+.header-hr{
+    width:15rem;
 }
 
 abbr:where([title]) {
@@ -81,7 +86,7 @@ sup {
     border-radius: 10px; /* Adjust the border-radius for rounded corners */
 }
   
-  .rounded-image img {
+.rounded-image img {
     width: 100%; /* Ensures the image takes the full width of the parent container */
     height: auto; /* Maintains the aspect ratio */
     display: block; /* Removes any extra space below the image */
@@ -671,7 +676,7 @@ img,video {
 
 .w-max {
     width: -moz-max-content;
-    width: max-content
+    width: max-content;
 }
 
 .w-screen {
